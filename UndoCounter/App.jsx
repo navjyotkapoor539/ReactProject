@@ -40,7 +40,7 @@ function App() {
       setValue(firstItem.prev);
       const copyRedoList=[...redoList];
       copyRedoList.push(firstItem);
-      setRedoList(firstItem);
+      setRedoList(copyRedoList);
     }
   }
 
