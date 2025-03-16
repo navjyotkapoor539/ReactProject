@@ -1,0 +1,31 @@
+.App{
+	text-align: center;
+}
+
+input{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+input:focus{
+	outline-color: blue;
+}
+
+button{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	color: #FFF;
+	background-color: purple;
+	margin-top: 30px;
+}
+.error{
+	border: 1px solid red;
+}
